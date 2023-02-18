@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class SortingNumbersAscendingOrder {
-    public static String SortingNumbersMethod(String[] arr) {
+    public static String sortingNumbersMethod(String[] arr) {
 
         return Stream.of(arr)
                 .map(str -> List.of(str.split(", ")))
