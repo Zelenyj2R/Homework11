@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SortingListNames {
-    public static String SortNames (List<String> names){
+    public static String sortNames (List<String> names){
         return names.stream()
                 .map(String::toUpperCase)
                 .sorted(Comparator.reverseOrder())
