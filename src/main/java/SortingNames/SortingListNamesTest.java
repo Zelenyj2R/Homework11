@@ -1,7 +1,5 @@
 package SortingNames;
 
-import ListOfNames.OddNames;
-
 import java.util.List;
 
 public class SortingListNamesTest {
